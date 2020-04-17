@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap); 
+body { 
+    overflow-x:hidden;
+    font-family: Lato, sans-serif;
+    color: #505962; 
+}
+
+/* for  navigation, I have used text-transform and font weight to make them appiling */ 
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    background-color: rgba(0, 0, 0, 0.6)!important;
+
+}
+
+.navbar-brand img {
+    height: 2rem; 
+
+}
+
+.navbar-nav li {
+    padding-right: 0.7rem; 
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white; 
+    padding-top: 0.8rem; 
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+   color: orangered;  
+}
+
+/* landing page*/ 
+
+.home-inner {
+    background-image: url(img/jakob-owens-f3s0i96CRGQ-unsplash.jpg);
+}
+
+.caption {
+    width: 100%; 
+    max-width:100%;
+    position: absolute; 
+    top: 28%; 
+    z-index: 1; 
+    color: white;
+    text-transform: uppercase; 
+
+}
+
+.caption h1 { 
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+/* I added margin and padding to my form and a simple back ground color because I was looking for a plane look*/
+form {
+    margin: 10px; 
+    padding: 5px; 
+    background-color: rgb(154, 160, 163);
+}
+
+/*I have used text-align to center my text in my footer*/ 
+footer {
+    background-color: #40474e;
+    color:white; 
+    padding: 2rem 0 2rem; 
+    margin-top: 1rem; 
+    text-align: center;
+
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+h4 {
+    text-align: center;
+}
+
+#about{
+    margin-top:70px; 
+    
+}
+
